@@ -1,0 +1,403 @@
+# Copyright (C) 2026 Nadeem Khan
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: href Scanner 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/href-scanner\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-08T20:36:53+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: href-scanner\n"
+
+#. Plugin Name of the plugin
+#: href-scanner.php
+#: href-scanner.php:97
+msgid "href Scanner"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: href-scanner.php
+msgid "https://github.com/nadeem-khan/href-scanner"
+msgstr ""
+
+#. Description of the plugin
+#: href-scanner.php
+msgid "Scan internal and external links, review anchor text and follow attributes, and export filtered link reports."
+msgstr ""
+
+#. Author of the plugin
+#: href-scanner.php
+msgid "Nadeem Khan"
+msgstr ""
+
+#. Author URI of the plugin
+#: href-scanner.php
+msgid "https://profiles.wordpress.org/chillopedia/"
+msgstr ""
+
+#: href-scanner.php:57
+#: href-scanner.php:59
+msgid "External Links"
+msgstr ""
+
+#: href-scanner.php:57
+#: href-scanner.php:59
+msgid "Internal Links"
+msgstr ""
+
+#: href-scanner.php:58
+msgid "External Link"
+msgstr ""
+
+#: href-scanner.php:58
+msgid "Internal Link"
+msgstr ""
+
+#: href-scanner.php:60
+msgid "All External Links"
+msgstr ""
+
+#: href-scanner.php:60
+msgid "All Internal Links"
+msgstr ""
+
+#: href-scanner.php:61
+msgid "No links found. Run a scan from Settings."
+msgstr ""
+
+#: href-scanner.php:98
+#: href-scanner.php:1051
+msgid "External Link Report"
+msgstr ""
+
+#: href-scanner.php:99
+#: href-scanner.php:1051
+msgid "Internal Link Report"
+msgstr ""
+
+#: href-scanner.php:100
+#: href-scanner.php:279
+msgid "href Scanner Settings"
+msgstr ""
+
+#: href-scanner.php:100
+msgid "Settings"
+msgstr ""
+
+#: href-scanner.php:136
+msgid "Internal Domains"
+msgstr ""
+
+#: href-scanner.php:137
+msgid "Internal Domain 1"
+msgstr ""
+
+#: href-scanner.php:137
+msgid "Internal Domain 2"
+msgstr ""
+
+#: href-scanner.php:137
+msgid "Internal Domain 3"
+msgstr ""
+
+#: href-scanner.php:159
+msgid "Content to Scan"
+msgstr ""
+
+#: href-scanner.php:160
+msgid "Content Types"
+msgstr ""
+
+#: href-scanner.php:200
+msgid "Select Posts, Pages or custom content types that support the editor. A complete scan removes records from unselected types. After changing domains or content types, run a complete scan to rebuild your link profile."
+msgstr ""
+
+#: href-scanner.php:241
+msgid "Enter a valid domain or HTTP(S) URL. The previous value was retained."
+msgstr ""
+
+#: href-scanner.php:267
+msgid "You are not allowed to manage these settings."
+msgstr ""
+
+#. translators: %d: Number of processed content items.
+#: href-scanner.php:274
+#, php-format
+msgid "Scan paused or running: %d items processed. Resume the active scan to continue."
+msgstr ""
+
+#: href-scanner.php:281
+msgid "Relative URLs and links to the domains configured under Settings → General as Site Address (URL) and WordPress Address (URL) are always internal. Add up to three additional domains below. A www prefix is ignored; other subdomains must be listed separately. You may enter a domain or a full HTTP(S) URL."
+msgstr ""
+
+#: href-scanner.php:289
+msgid "Scan Content"
+msgstr ""
+
+#: href-scanner.php:290
+msgid "Complete Scan:"
+msgstr ""
+
+#: href-scanner.php:290
+msgid "Scans all content in the selected types, refreshes the full link profile, removes outdated records and saves its completion date."
+msgstr ""
+
+#: href-scanner.php:291
+msgid "Quick Scan:"
+msgstr ""
+
+#: href-scanner.php:291
+msgid "Refreshes only selected content created or updated since the last complete scan finished. Unchanged records are kept, and the complete-scan date remains the cutoff. Quick Scan is disabled until a complete scan finishes."
+msgstr ""
+
+#: href-scanner.php:292
+msgid "Save domain and content-type changes before starting a scan. An interrupted scan uses its original settings. Run another scan after it finishes to apply changes."
+msgstr ""
+
+#: href-scanner.php:293
+msgid "Keep this page open until it finishes."
+msgstr ""
+
+#: href-scanner.php:295
+#: admin.js:85
+msgid "Resume Complete Scan"
+msgstr ""
+
+#: href-scanner.php:295
+msgid "Start Complete Scan"
+msgstr ""
+
+#: href-scanner.php:296
+#: admin.js:85
+msgid "Resume Quick Scan"
+msgstr ""
+
+#: href-scanner.php:296
+msgid "Start Quick Scan"
+msgstr ""
+
+#: href-scanner.php:298
+msgid "Scan progress"
+msgstr ""
+
+#: href-scanner.php:305
+msgid "Scans saved content in the selected types, including drafts, pending, private, scheduled and inherited items. Trashed items and auto-drafts are excluded. Both reports are updated by each scan."
+msgstr ""
+
+#. translators: 1: Completion date, 2: Items, 3: External links, 4: Internal links.
+#: href-scanner.php:312
+#, php-format
+msgid "Last complete scan finished: %1$s — %2$d items, %3$d external links, %4$d internal links."
+msgstr ""
+
+#: href-scanner.php:334
+#: href-scanner.php:527
+msgid "Link"
+msgstr ""
+
+#: href-scanner.php:335
+#: href-scanner.php:394
+#: href-scanner.php:527
+msgid "Anchor Text"
+msgstr ""
+
+#: href-scanner.php:336
+#: href-scanner.php:395
+#: href-scanner.php:527
+msgid "Follow Type"
+msgstr ""
+
+#: href-scanner.php:337
+#: href-scanner.php:396
+#: href-scanner.php:527
+msgid "Source Post"
+msgstr ""
+
+#: href-scanner.php:338
+#: href-scanner.php:415
+#: href-scanner.php:527
+msgid "Content Type"
+msgstr ""
+
+#: href-scanner.php:391
+msgid "Showing links to:"
+msgstr ""
+
+#: href-scanner.php:391
+msgid "Clear target filter"
+msgstr ""
+
+#: href-scanner.php:401
+msgid "All Follow Types"
+msgstr ""
+
+#: href-scanner.php:403
+#: href-scanner.php:602
+msgid "Do Follow"
+msgstr ""
+
+#: href-scanner.php:404
+#: href-scanner.php:602
+msgid "No Follow"
+msgstr ""
+
+#: href-scanner.php:416
+msgid "All Content Types"
+msgstr ""
+
+#: href-scanner.php:442
+msgid "Export All"
+msgstr ""
+
+#: href-scanner.php:566
+msgid "You are not allowed to export link records."
+msgstr ""
+
+#: href-scanner.php:571
+msgid "Invalid link listing."
+msgstr ""
+
+#: href-scanner.php:608
+msgid "Unknown"
+msgstr ""
+
+#: href-scanner.php:631
+msgid "Could not parse a post. The scan has stopped; existing records were retained."
+msgstr ""
+
+#: href-scanner.php:754
+msgid "Could not remove an outdated link record. Resume the scan to retry."
+msgstr ""
+
+#: href-scanner.php:807
+msgid "Invalid scan type."
+msgstr ""
+
+#: href-scanner.php:815
+msgid "Another scan has started. Refresh Settings to resume it."
+msgstr ""
+
+#: href-scanner.php:820
+msgid "Select and save at least one content type in Settings before scanning."
+msgstr ""
+
+#: href-scanner.php:824
+msgid "Finish a complete scan before starting a quick scan."
+msgstr ""
+
+#: href-scanner.php:849
+msgid "Could not read the posts. Please try again."
+msgstr ""
+
+#: href-scanner.php:870
+msgid "A scan is already in progress. Resume it before starting another scan."
+msgstr ""
+
+#: href-scanner.php:897
+msgid "Could not read the next batch of posts. Resume the scan to retry."
+msgstr ""
+
+#: href-scanner.php:940
+msgid "Could not read outdated records. Resume the scan to retry."
+msgstr ""
+
+#: href-scanner.php:944
+msgid "Could not remove an outdated record. Resume the scan to retry."
+msgstr ""
+
+#: href-scanner.php:968
+msgid "You are not allowed to scan posts."
+msgstr ""
+
+#: href-scanner.php:972
+msgid "The PHP DOM extension is required to scan links."
+msgstr ""
+
+#: href-scanner.php:980
+msgid "A scan request is already running. Wait for it to finish, then resume."
+msgstr ""
+
+#: href-scanner.php:1045
+msgid "You are not allowed to view this report."
+msgstr ""
+
+#: href-scanner.php:1066
+msgid "Manage internal domains and scan content in Settings"
+msgstr ""
+
+#: href-scanner.php:1067
+msgid "Counts include every link occurrence, including repeated links in the same post. Results may be incomplete while a scan is in progress."
+msgstr ""
+
+#: href-scanner.php:1068
+msgid "View individual link records"
+msgstr ""
+
+#: href-scanner.php:1072
+msgid "Could not load the link report. Check that the WordPress posts and postmeta tables are available."
+msgstr ""
+
+#: href-scanner.php:1074
+msgid "Target Page"
+msgstr ""
+
+#: href-scanner.php:1074
+msgid "Domain"
+msgstr ""
+
+#: href-scanner.php:1074
+msgid "Total Links"
+msgstr ""
+
+#: href-scanner.php:1108
+msgid "No links found. Start a scan from Settings."
+msgstr ""
+
+#: admin.js:49
+msgid "Scan complete."
+msgstr ""
+
+#: admin.js:51
+msgid "Finalizing scan and removing outdated records…"
+msgstr ""
+
+#. translators: 1: Estimated remaining minutes, 2: Estimated remaining seconds.
+#: admin.js:55
+#, js-format
+msgid "Estimated time remaining: about %1$d min %2$d sec, plus cleanup."
+msgstr ""
+
+#. translators: 1: Processed items, 2: Total items, 3: External links, 4: Internal links.
+#: admin.js:58
+#, js-format
+msgid "Scanned %1$d of %2$d items. Found %3$d external links and %4$d internal links."
+msgstr ""
+
+#: admin.js:63
+msgid "Removing outdated records…"
+msgstr ""
+
+#: admin.js:77
+msgid "The scan stopped. Resume the active scan to retry. If another scan is running, wait for it to finish."
+msgstr ""
+
+#: admin.js:78
+msgid "Scan paused. Resume to continue."
+msgstr ""
+
+#: admin.js:96
+msgid "Estimating time remaining…"
+msgstr ""
+
+#: admin.js:98
+msgid "Scanning…"
+msgstr ""
+
+#: admin.js:99
+msgid "Starting scan…"
+msgstr ""

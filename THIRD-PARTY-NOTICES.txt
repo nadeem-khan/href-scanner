@@ -1,0 +1,9 @@
+# License and dependency notices
+
+href Scanner is licensed under **GPL-2.0-or-later**. See `LICENSE` for the GPL version 2 terms; the plugin header and readme grant the "or later" choice. Nadeem Khan confirms that the existing plugin code and styles were made from scratch. Contributors retain their copyright and contribute under the same license.
+
+There are no bundled third-party libraries, images, fonts or icon files in the release. PHP and JavaScript are maintained in readable source form; CSS is authored locally.
+
+The plugin uses WordPress-provided APIs, jQuery, `wp-i18n`, Dashicons, and the `WpOrg\Requests` URL/IDN classes. These are provided by the site's WordPress installation and are not redistributed in this ZIP. Their licenses and notices remain with WordPress. PHP DOM/libxml are platform extensions, also not distributed here.
+
+WordPress, WP-CLI, Plugin Check, PHP_CodeSniffer and GitHub Actions used for development are not part of the plugin distribution. Do not add a vendored library or asset without recording its origin, license, version and required notices here and reviewing GPL compatibility.

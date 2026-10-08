@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="href Scanner">
+	<description>Unfiltered WordPress Coding Standards for runtime source and CLI regression fixtures.</description>
+	<file>href-scanner.php</file>
+	<file>admin.js</file>
+	<file>tests</file>
+	<arg name="extensions" value="php,js"/>
+	<arg name="ignore-annotations"/>
+	<rule ref="WordPress"/>
+</ruleset>
